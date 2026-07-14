@@ -139,7 +139,6 @@ header .background-image{
     gap: 30px;
     padding: 20px;
     margin-bottom: 50px;
-    border: 1px solid black;
 }
 
 .host-description .host-card div img{
@@ -165,4 +164,117 @@ header .background-image{
 }
 .host-description .host-card .content ul{
     text-align: left;
+}
+
+.host-button {
+    display: flex;
+   justify-content: center;
+}
+.host-button button{
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 20px;
+    background-color: #e8be2e;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.venue-table{
+    padding: 10px 8%;
+}
+.venue-table .table-div{
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 20px;
+}
+.venue-table h1{
+    font-size: 32px;
+    
+}
+.venue-table p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.venue-table .table-container{
+    width: 100%;
+}
+
+.venue-table table{
+    width: 100%;
+
+    
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th,td{
+    border: 1px solid black;
+    padding: 16px;
+    text-align: center;
+}
+table tH{
+    background-color:#A73131 ;
+    color: white;
+}
+.newsletter{
+    padding: 80px 8%;
+}
+
+.newsletter-content{
+    background: #A73131;
+    color: white;
+    border-radius: 20px;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.newsletter-content h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.newsletter-content p{
+    max-width: 650px;
+    margin: 0 auto 35px;
+    line-height: 1.7;
+    color: rgba(255,255,255,.85);
+}
+
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.newsletter-form input{
+    width: 350px;
+    max-width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    outline: none;
+}
+
+.newsletter-form button{
+    padding: 16px 32px;
+    border: none;
+    border-radius: 50px;
+    background: #F4C41C;
+    color: #111;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.newsletter-form button:hover{
+    background: #ffd84d;
 }
